@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercici 1</title>
-</head>
-<body>
-    <script>
+
     
+
+</head>
+
+<body>
+
+    <h1>BLOC 1.1: ARROW FUNCTIONS</h1>
+    <h2>Nivell 1</h2>
+    <h3>Exercici 1</h3>
+
+    <p id="show"></p>
+
+    <script>
+
+        let a = parseInt(prompt("Indica un número"));        
+        let b = parseInt(prompt("Indica un altre número"));
+
+        let add = (a, b) => a + b;
+        document.getElementById("show").innerHTML = " La suma dels numeros és : " + add(a, b);
+
     </script>
+    
 </body>
+
 </html>
