@@ -3,27 +3,27 @@
 
 
 function promesa(input) {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        if (input === 'Hola') {
-          resolve('Promesa resolta correctament');
-          console.log(input);
-        } else {
-          reject(`Promesa rebutxada: "${input}" no és Hola`);
-        }
-      }, 2000);
-    });
-  }
-  
-  // Ejemplo de uso
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (input === 'Hola') {
+        resolve('Promesa resolta correctament');
+        console.log(input);
+      } else {
+        reject(`Promesa rebutxada: "${input}" no és Hola`);
+      }
+    }, 2000);
+  });
+}
 
-  let input = prompt("Digues algo");
-  
-  promesa(input)
-    .then((resultat) => {
-      console.log(resultat); 
-    })
-    .catch((error) => {
-      console.error(error); 
-    });
-  
+// Ejemplo de uso
+
+let input = prompt("Digues algo");
+
+promesa(input)
+  .then((resultat) => {
+    console.log(resultat);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
