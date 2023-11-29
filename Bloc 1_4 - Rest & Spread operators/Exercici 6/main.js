@@ -3,7 +3,7 @@
 
 let objecte1 = {
     nombre:     "Rafa",
-    apellido:   "Fernandez"
+    apellido:   "Ruiz"
 }
 
 let objecte2 = {
