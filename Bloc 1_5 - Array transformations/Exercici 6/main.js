@@ -11,13 +11,13 @@ console.log(major10);
 console.log(algunmajor10);
 
 if (major10) {
-    console.log("Tots els numeros son majors de 10"); 
+    console.log("Tots els numeros son majors de 10."); 
 } else{
-    console.log("Algun dels númneros no son majors de 10");
+    console.log("Algun dels númneros no son majors de 10.");
 }
 
 if (algunmajor10) {
-    console.log("Algun o tots els numeros son majors de 10"); 
+    console.log("Algun o tots els numeros son majors de 10."); 
 } else{
-    console.log("no hi ha cap número major de 10");
+    console.log("no hi ha cap número major de 10.");
 }
