@@ -19,5 +19,5 @@ if (major10) {
 if (algunmajor10) {
     console.log("Algun o tots els numeros son majors de 10."); 
 } else{
-    console.log("no hi ha cap número major de 10.");
+    console.log("no hi ha cap número major de 10");
 }
