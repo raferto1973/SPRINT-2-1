@@ -21,7 +21,7 @@ Navigate through each block to explore and interact with the concepts. Perfect f
 To set up your development environment with a local copy of these exercises, follow these 🐾 steps:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/raferto1973/SPRINT-2_1-IT_ACADEMY/tree/main.git
 ```
 👆 Don't forget to replace `your-username/your-repo-name` with the actual username and repository name.
 
